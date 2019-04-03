@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+#navbar {
+    overflow: hidden;
+    display: block;
+    position: fixed;
+    background-color: #e0ebe8;
+    width: 100vw;
+}
+
+.navbar {
+    float: right;
+    margin: 3vh 5vw 0 0;
+}
+
+#navbar a {
+    padding: 14px 16px;
+    text-decoration: none;
+    margin: 5px;
+    color: black;
+}
+
+#welcome-section {
+    background: #e0ebe8;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    padding-top: 50vh;
+}
+
+#welcome-section h1 {
+    font-size: 40px;
+}
+
+#welcome-section p {
+    color: #008000;
+}
+
+#projects {
+    margin-top: 50px;
+    /*
+    display:flex;
+    flex-flow: wrap;*/
+    display: grid;
+    justify-content: space-around;
+}
+
+#projects h3 {
+    color: aqua;
+}
+
+.project-tile {
+    cursor: pointer;
+    margin: 50px;
+}
+
