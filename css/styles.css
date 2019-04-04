@@ -19,7 +19,7 @@ body, html {
 
 .navbar {
     float: right;
-    margin: 3vh 5vw 0 0;
+    margin: 3vh 5vw 3vh 0;
 }
 
 #navbar a {
@@ -46,20 +46,43 @@ body, html {
 }
 
 #projects {
+    padding-top: 60px;
+    margin-top: -60px;
+}
+
+.projects {
     margin-top: 50px;
-    /*
-    display:flex;
-    flex-flow: wrap;*/
-    display: grid;
-    justify-content: space-around;
 }
 
 #projects h3 {
-    color: aqua;
+    color: lightslategray;
+    margin-top: 50px;
 }
 
 .project-tile {
+    display: inline-block;
+    overflow: hidden;
+    height: 220px;
+    width: 280px;
+    border: 2px solid gray;
     cursor: pointer;
-    margin: 50px;
+    margin: 40px 1000px;
+    text-decoration: none;
 }
 
+.project-tile img {
+    width: 100%;
+    height: 180px;
+}
+
+.project-tile p {
+    border-top: 2px solid gray;
+    color: #008000;
+    padding-top: 5px;
+}
+
+@media only screen and (max-width: 500px) {
+    .project-tile img {
+        margin: 40px 0;
+      }
+}
