@@ -26,7 +26,7 @@ body, html {
     padding: 14px 16px;
     text-decoration: none;
     margin: 5px;
-    color: black;
+    color: #008080;
 }
 
 #welcome-section {
@@ -66,7 +66,7 @@ body, html {
     width: 280px;
     border: 2px solid gray;
     cursor: pointer;
-    margin: 40px 1000px;
+    margin: 40px;
     text-decoration: none;
 }
 
@@ -81,8 +81,61 @@ body, html {
     padding-top: 5px;
 }
 
-@media only screen and (max-width: 500px) {
-    .project-tile img {
-        margin: 40px 0;
-      }
+#contact {
+    background: #C8F7C5;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    padding-top: 30vh;
+}
+
+.circle {
+    display: inline-block;
+    font-weight: bold;
+    list-style-type: none;
+    border: 2px solid #90C695;
+    border-radius: 100%;
+    height: 100px;
+    width: 100px;
+    line-height: 100px;
+    background: #e0ebe8;
+    color: #008080;
+    text-decoration: none;
+    margin: 50px 35px 45px 35px;
+    padding: 0;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 519px) {
+    #contact {
+        padding-top: 55px;
+    }
+
+    .circle {
+        margin: 30px;
+    }
+}
+
+@media only screen and (max-width: 325px) {
+    #contact {
+        padding-top: 75px;
+    }
+
+    .circle {
+        margin: 20px;;
+    }
+}
+
+
+footer {
+    padding: 20px;
+    background: #22313F;
+    color: white;
+    line-height: 40px;
+}
+
+footer p a {
+    cursor: pointer;
+    color: white;
+    line-height: 40px;
 }
