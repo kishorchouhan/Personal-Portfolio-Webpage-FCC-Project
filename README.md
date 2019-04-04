@@ -1,4 +1,26 @@
-# Personal Portfolio Webpage
+# Personal Portfolio Webpage - FCC Project5
+
+FCC Project 5: Personal Portfolio Webpage
+
+## Overview
+
+Project From FreeCodeCamp: Responsive Web Design Course.
+
+Project instruction page: [Build a Personal Portfolio Webpage](https://learn.freecodecamp.org/responsive-web-design/responsive-web-design-projects/build-a-personal-portfolio-webpage)
+
+## Links to GitHub Repository (Master Branch)
+
+* My GitHub Project Repository: [https://github.com/kishorchouhan/Personal-Portfolio-Webpage-FCC-Project](https://github.com/kishorchouhan/Personal-Portfolio-Webpage-FCC-Project "My GitHub Project Repository")
+
+* My Project Website Is Hosted Here: [https://kishorchouhan.github.io/Personal-Portfolio-Webpage-FCC-Project/](https://kishorchouhan.github.io/Personal-Portfolio-Webpage-FCC-Project/ "My Hosted Website")
+
+To run the website and take code on local machine:
+
+1. Download the GitHub zip file or clone the repository onto your local workstation:
+	* zip file [https://github.com/kishorchouhan/Personal-Portfolio-Webpage-FCC-Project/archive/master.zip](https://github.com/kishorchouhan/Personal-Portfolio-Webpage-FCC-Project/archive/master.zip "download zip file")
+	* git clone [https://github.com/kishorchouhan/Personal-Portfolio-Webpage-FCC-Project.git/](https://github.com/kishorchouhan/Personal-Portfolio-Webpage-FCC-Project.git "git clone repository")
+2. Open a browser window and navigate to the index.html file in your directory.
+
 
 
 ## Instruction from project:
